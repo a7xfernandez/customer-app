@@ -28,7 +28,7 @@ class CustomersContainer extends Component {
         <div>
             <CustomerList
                 customers={customers} 
-                urlPath={'customer/'}>                
+                urlPath={'customers/'}>                
             </CustomerList>
             <CustomerActions>
                 <button onClick={this.handleAddNew}>Nuevo cliente</button>
