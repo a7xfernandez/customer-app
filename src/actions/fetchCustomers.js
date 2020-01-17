@@ -1,7 +1,7 @@
 import {FETCH_CUSTOMERS} from './../constants';
 import {createAction} from 'redux-actions';
 
-const customers= [
+const customers = [
     {
         "dni": "27000000",
         "name": "Pedro Paramo",
@@ -19,4 +19,4 @@ const customers= [
     }
 ];
 
-export const fetchCustomers = createAction (FETCH_CUSTOMERS);
+export const fetchCustomers = createAction(FETCH_CUSTOMERS, ()=> customers);
