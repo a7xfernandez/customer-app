@@ -69,4 +69,4 @@ const mapDispatchToProps =  dispatch => (
     }
 )
 
-export default withRouter(null, mapDispatchToProps)(CustomersContainer);
+export default withRouter(connect(null, mapDispatchToProps)(CustomersContainer));
