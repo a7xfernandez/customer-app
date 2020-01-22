@@ -1,21 +1,24 @@
 {
   "customers": [
     {
-        "dni": "27000000",
-        "name": "Pedro Paramo",
-        "age": 25
+      "id": "27000000",
+      "dni": "27000000",
+      "name": "Pedro Picapiedra",
+      "age": "50"
     },
     {
-        "dni": "30000000",
-        "name": "Juan Rulfo",
-        "age": 25
+      "id": "30000000",
+      "dni": "30000000",
+      "name": "Juan Rulfo",
+      "age": "50"
     },
     {
-        "dni": "37000000",
-        "name": "Pablo Marmol",
-        "age": 25
+      "id": "37000000",
+      "dni": "37000000",
+      "name": "Pablo Marmol",
+      "age": "50"
     }
-],
+  ],
   "posts": [
     {
       "id": 1,
