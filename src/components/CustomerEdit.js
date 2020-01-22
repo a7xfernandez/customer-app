@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { reduxForm, Field, isSubmitting } from 'redux-form';
+import { reduxForm, Field/*, isSubmitting*/ } from 'redux-form';
 import { setPropsAsInitial } from '../helpers/setPropsAsInitial';
 import CustomerActions from './CustomersActions';
-
+/*
 const isRequired = value => (
     !value && "Este campo es requerido"
-);
+);*/
 
 const isNumber = value => (
     isNaN(Number(value)) && "El campo debe ser un numero"
