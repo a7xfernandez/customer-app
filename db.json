@@ -3,20 +3,20 @@
     {
       "id": "27000000",
       "dni": "27000000",
-      "name": "Pedro Picapiedra",
-      "age": "33"
+      "name": "PEDRO PARAMO",
+      "age": 521
     },
     {
       "id": "30000000",
       "dni": "30000000",
-      "name": "Juan Rulfo",
-      "age": "50"
+      "name": "JUAN RULFO",
+      "age": 50
     },
     {
       "id": "37000000",
       "dni": "37000000",
-      "name": "Pablo Marmol",
-      "age": "40"
+      "name": "PABLO MARMOL",
+      "age": 43
     }
   ],
   "posts": [
