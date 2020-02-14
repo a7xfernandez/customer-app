@@ -36,7 +36,7 @@ export const apiPut = (url, id, obj) => () =>
             if (r.error) {
                 return Promise.reject(r.validation);
             }
-            return r;
+            return id;
         });
 
 
