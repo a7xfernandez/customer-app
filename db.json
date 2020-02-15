@@ -27,14 +27,21 @@
     {
       "name": "JESSICA ORDOÑEZ",
       "dni": "080119875674",
-      "age": 33,
-      "id": "uR9D7zg"
+      "age": 34,
+      "id": "uR9D7zg",
+      "isDeleteAllow": false
     },
     {
       "name": "ZOE ANDINO",
       "dni": "010519870094",
       "age": 29,
       "id": "usrgSxY"
+    },
+    {
+      "name": "JESSICA ZAVALA",
+      "dni": "1335457883",
+      "age": 24,
+      "id": "QhyRjPk"
     }
   ],
   "posts": [

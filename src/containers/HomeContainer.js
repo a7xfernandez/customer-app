@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {  withRouter } from 'react-router-dom';
 import AppFrame from '../components/AppFrame';
-import CustomersActions from '../components/CustomersActions'
+import CustomersActions from '../components/CustomersActions';
+import logo from './../../src/logo.svg';
 
 class HomeContainer extends Component {
     handleOnClick =()=>{
@@ -15,7 +16,7 @@ class HomeContainer extends Component {
                     header='Home'
                     body={
                         <div>
-                            Esta es la pantalla inicial
+                            <img src={logo} className="App-logo" alt="logo" />
                             <CustomersActions>
                                 <button onClick={this.handleOnClick} >Listado de clientes</button>                                
                             </CustomersActions>
